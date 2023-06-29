@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// library import
+import React from 'react'
+import Button from './component/Button'
+import Ex1 from './component/Ex1'
+import Ex2 from './component/Ex2'
+import Ex3 from './component/Ex3'
+import Ex4 from './component/Ex4'
+import Ex5 from './component/Ex5'
+import Ex6 from './component/Ex6'
+import Ex7 from './component/Ex7'
 
-function App() {
+//component body -> functional, const arrow, const functional,(first 3 are ECMA script 5 constructor) and class (ES 6 constructor)
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    {/* <h1>JSX Part of the React</h1>
+      <button>Click Me</button>
+      <hr/>
+      <Button fname={'Submit'}/>
+      <Button fname={'Login'} />
+      <Button fname={'Register'}/>
+      <Button fname={'Contact Me'} />
+      <hr/>
+      <Ex1/>
+      <Ex2/>
+      <Ex3/>
+      <Ex4/>
+      <Ex5/>
+      <Ex6/>*/}
+      <Ex7/>
     </div>
-  );
+  )
 }
 
-export default App;
+//default exports
+export default App
