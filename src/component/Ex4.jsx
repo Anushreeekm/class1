@@ -17,6 +17,7 @@ function Ex4 (props) {
             <h1>Variables and data binding in react</h1>
             <h4> x = {x}</h4>
             <h3> {title} </h3>
+            <h2> { y } </h2>
             <h3> boolean = { isView ? "Say True" : "Say False"}</h3>
             <hr/>
             <div>
